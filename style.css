@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222 !important;
+}
+
+
+.card-div{
+    width: 500px !important;
+    height: 70vh;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+    margin-top: 120px;
+    
+}
+
+.main-content{
+    text-align: center;
+    /* align-content: center; */
+    /* border: 2px solid red; */
+    /* margin: 200px; */
+    /* margin-top: 70px; */
+    width: 100%;
+    height: 100%;
+}
+.main-section{
+    padding-bottom: 15px;
+}
+.search-btn{
+    width: 50px;
+    height: 35px;
+    border-radius: 50% !important;
+    background: #fff !important;
+    color: black !important;
+}
+
+.search-img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px;
+    
+}
+
+.input-bar{
+    border-radius: 20px !important;
+}
+
+
+/*Main middle Section */
+
+.main-img{
+    /* background: magenta; */
+    width: 150px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-left: 160px;
+    /* position: relative; */
+}
+
+#weather-img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-text h1{
+    font-family: 'Poppins';
+}
+.main-text h3{
+    font-family: 'Poppins';
+    
+}
+
+/*Footer section*/
+
+/* .footer{
+    margin-top: 50px;
+} */
+
+.humidity-img{
+    /* background-color: violet; */
+    width: 60px;
+    height: 40px;
+}
+.humidity-img img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.wind-img{
+    /* background-color: violet; */
+    width: 60px;
+    height: 40px;
+}
+.wind-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.humidity-text{
+    font-family: 'Poppins';
+}
+.wind-text{
+    font-family: 'Poppins';
+}
